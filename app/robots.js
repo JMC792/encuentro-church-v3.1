@@ -8,6 +8,6 @@ export default function robots() {
         '/post',
       ],
     },
-    sitemap: 'https://www.queencitywebsolutions.com/sitemap.xml',
+    sitemap: 'https://www.encuentro.church/sitemap.xml',
   }
 }

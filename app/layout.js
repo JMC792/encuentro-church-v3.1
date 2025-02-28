@@ -15,10 +15,10 @@ import email from "public/icons/email.svg"
 export const metadata = {
   title: {
     //template: "%s | " + [layout.title],
-    default: 'Queen City Web Solutions',
+    default: 'Encuentro Church',
   },
-  description: "Queen City Web Solutions is a web development company that specializes in creating custom websites for small businesses and entrepreneurs.",
-  appliationName: "Queen City Web Solutions",
+  description: "We are a multi-cultural and multi-lingual christian church located in Charlotte, North Carolina",
+  appliationName: "Encuentro Church",
   creator: "Mauricio Chavez",
   publisher: "Mauricio Chavez",
 };
@@ -35,8 +35,8 @@ export default function RootLayout({children}){
     publisher: "Jesus Chavez",
     number: "(980)-392-7215",
     email: "info@queencitywebsolutions.com",
-    address: "1422 S Tryon St",
-    city: "Charlotte, NC 28203",
+    address: "7568 Ruben Linker Rd NW",
+    city: "Concord, NC 28027",
     sitemap: {
         home: "home",
         about: "about",
@@ -51,11 +51,12 @@ export default function RootLayout({children}){
     <html lang="en">
       <body className={inter.className}>
         <Navbar
+          link1 = {layout.sitemap.home} //Home
           link2 = {layout.sitemap.about} //About
           link3 = {layout.sitemap.link3} //Portfolio
           link4 = {layout.sitemap.contact} //Contact
           link5 = {layout.sitemap.service} //Service
-          link6 = {layout.sitemap.blog} //Blog
+          // link6 = {layout.sitemap.blog} //Blog
           phoneNumber = {layout.number}
           logo = {logo}
         />

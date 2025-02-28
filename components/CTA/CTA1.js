@@ -8,10 +8,10 @@ export default function Example() {
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our people</h2>
               <p className="mt-6 text-xl leading-8 text-gray-600">
-              At the heart of our company are the dedicated professionals who drive our success. Each team member brings a wealth of knowledge and expertise, ensuring that we deliver top-notch IT solutions and consultations.
+              At the heart of Encuentro Church is a devoted community of believers who embody our mission of faith, love, and service. Each member brings unique gifts and a passion for spiritual growth, creating a welcoming and supportive environment for all.
               </p>
               <p className="mt-6 text-base leading-7 text-gray-600">
-              Our experts are committed to providing personalized service and innovative solutions tailored to your unique business needs. With a deep understanding of the latest technology trends and best practices, they work tirelessly to help your business thrive in the ever-evolving IT landscape.
+              Our leaders and volunteers are dedicated to guiding, uplifting, and serving others with compassion. Through prayer, biblical teaching, and fellowship, they work tirelessly to nurture a strong, faith-filled community where everyone can grow in their relationship with God.
               </p>
               <div className="mt-10 flex">
                 <Link
@@ -26,7 +26,7 @@ export default function Example() {
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
+                  src="https://images.unsplash.com/photo-1550633600-4cfc6929e592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
@@ -34,21 +34,21 @@ export default function Example() {
                 <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                   <img
                     alt=""
-                    src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                    src="https://images.unsplash.com/photo-1543702474-2c562b1845eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                     className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                   <img
                     alt=""
-                    src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
+                    src="https://images.unsplash.com/photo-1579975096649-e773152b04cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                   <img
                     alt=""
-                    src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                    src="https://images.unsplash.com/photo-1532190795157-3f983fb7fa3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>

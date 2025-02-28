@@ -44,11 +44,11 @@ function Navbar(props) {
                     <div className="container mx-auto">
 
                         {/* List Wrapper */}
-                        <div className="flex flex-nowrap items-center justify-between">
+                        <div className="flex flex-nowrap items-center justify-between pt-4">
 
                             {/* Logo */}
                             <Link href={"/"} >
-                                <Image src={props.logo} height={60} width={80} alt={"logo"} className={"cursor-pointer"}/>
+                                <Image src={props.logo} height={200} width={80} alt={"logo"} className={"cursor-pointer"}/>
                             </Link>
 
                             {/* List */}

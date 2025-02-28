@@ -24,17 +24,17 @@ const navigation = {
     { name: 'Insights', href: '#' },
   ],
   support: [
-    { name: 'Phone', href: '#' },
-    { name: 'Teams', href: '#' },
-    { name: 'Email', href: '#' },
-    { name: 'Fax', href: '#' },
+    { name: 'Phone', href: 'tel: 704-231-8681' },
+    // { name: 'Teams', href: '#' },
+    { name: 'Email', href: 'mailto: jesuschavez792@gmail.com' },
+    // { name: 'Fax', href: '#' },
   ],
   company: [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
     { name: 'Services', href: '/service' },
-    { name: 'Blog', href: '/blog' },
+    // { name: 'Blog', href: '/blog' },
   ],
   legal: [
     { name: 'Privacy', href: '/privacy' },

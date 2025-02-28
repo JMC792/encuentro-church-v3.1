@@ -17,7 +17,7 @@ export default function Example(props) {
                     {/* Paragraph */}
                     <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
                         <p>
-                        My experience with Queen City Web Solutions has been exceptional. They fortified my business computer with top-notch antivirus software, state-of-the-art EDR, and robust network security
+                        My experience with Encuentro Church has been truly uplifting. They have provided me with spiritual guidance, a welcoming community, and a deepened connection with my faith. Through heartfelt worship, biblical teaching, and genuine fellowship, I have found a place to grow and serve with purpose.
                         </p>
                     </blockquote>
 

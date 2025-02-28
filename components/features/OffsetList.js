@@ -2,30 +2,31 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 
 const features = [
     {
-        name: 'IT Staffing Solutions',
-        description: 'Providing businesses with highly skilled IT professionals to meet short-term and long-term staffing needs.',
+        name: 'Faith-Based Leadership',
+        description: 'Providing spiritual guidance and mentorship to help individuals and families grow in their faith.',
     },
     {
-        name: 'IT Consultation',
-        description: 'Expert advice and strategic planning to help businesses optimize their IT infrastructure and processes.',
+        name: 'Biblical Teaching',
+        description: 'Offering sound biblical instruction to strengthen understanding and application of God’s Word.',
     },
     {
-        name: 'Project Management',
-        description: 'Comprehensive project management services to ensure IT projects are completed on time and within budget.',
+        name: 'Community Outreach',
+        description: 'Engaging in service projects and outreach programs to support and uplift our community.',
     },
     {
-        name: 'Cybersecurity Services',
-        description: 'Protecting businesses from cyber threats with advanced security solutions and risk management strategies.',
+        name: 'Prayer and Worship',
+        description: 'Creating a space for heartfelt worship and prayer, where individuals can connect deeply with God.',
     },
     {
-        name: 'Cloud Solutions',
-        description: 'Assisting businesses in migrating to and managing cloud-based environments for improved scalability and efficiency.',
+        name: 'Discipleship and Fellowship',
+        description: 'Fostering meaningful relationships through small groups, mentorship, and discipleship programs.',
     },
     {
-        name: 'Software Development',
-        description: 'Custom software development services to meet the unique needs of businesses, from conception to deployment.',
+        name: 'Ministry Development',
+        description: 'Equipping members with the resources and support needed to serve effectively in various ministry areas.',
     },
 ]
+
 
 export default function Example(props) {
     return (
@@ -34,13 +35,13 @@ export default function Example(props) {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <div>
                 <h2 className="text-base font-semibold leading-7 text-indigo-600">
-                    Empowering Your IT Journey
+                    Empowering Your Faith Journey
                 </h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                    Expert IT Staffing and Consultation Services
+                    Guidance, Community, and Spiritual Growth
                 </p>
                 <p className="mt-6 text-base leading-7 text-gray-600">
-                    We specialize in a comprehensive suite of IT services, designed to navigate the complexities of the technology landscape. From IT staffing solutions to cybersecurity services, we provide skilled guidance and support to businesses seeking to optimize their IT infrastructure. Trust us to deliver the expertise and resources you need to achieve your business goals.
+                At Encuentro Church, we are dedicated to walking alongside you in your spiritual journey. Through faith-centered teaching, meaningful fellowship, and compassionate service, we provide the guidance and support needed to grow in your relationship with God. Trust us to equip and encourage you as you navigate life with faith and purpose.
                 </p>
             </div>
             <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">

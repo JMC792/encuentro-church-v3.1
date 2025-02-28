@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Hero({title,subtitle,button}) {
 
     const text = {
-        title: "Building Brands, One Pixel at a Time",
-        subtitle: "We're dedicated to shaping digital landscapes with awe-inspiring web design and development. Our mission is to bring your brand's story to life through visually captivating and functionally flawless websites.",
+        title: "Encuentro Church",
+        subtitle: "We are a multi-cultural and multi-lingual christian church located in Charlotte, North Carolina. We are dedicated to helping people from all walks of life find the lord and live in his name everyday. Services begin Sunday at 11:00am at our Charlotte campus and online",
         button1: "Get started",
         button2: "Learn more"
     }

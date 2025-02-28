@@ -3,25 +3,26 @@ import Link from "next/link"
 const faqs = [
     {
         id: 1,
-        question: "What services do you offer?",
-        answer: "We offer a range of IT services including IT staffing solutions, IT consultation, project management, cybersecurity services, cloud solutions, and custom software development.",
+        question: "What services does Encuentro Church offer?",
+        answer: "We offer worship services, Bible studies, community outreach programs, discipleship opportunities, and fellowship events to help individuals grow in faith.",
     },
     {
         id: 2,
-        question: "How do you ensure the quality of your IT professionals?",
-        answer: "Our rigorous vetting process includes thorough interviews, technical assessments, and reference checks to ensure we provide highly skilled and experienced IT professionals.",
+        question: "How can I get involved in the church?",
+        answer: "You can join a small group, volunteer in a ministry, participate in outreach programs, or attend our services and events to connect with our faith community.",
     },
     {
         id: 3,
-        question: "Can you help with short-term IT staffing needs?",
-        answer: "Yes, we provide both short-term and long-term IT staffing solutions tailored to meet your specific project requirements and timelines.",
+        question: "Do you offer support for individuals and families?",
+        answer: "Yes, we provide spiritual guidance, pastoral counseling, and community support to help individuals and families navigate life's challenges with faith and encouragement.",
     },
     {
         id: 4,
-        question: "What industries do you specialize in?",
-        answer: "We specialize in a wide range of industries including finance, healthcare, retail, technology, and more, providing tailored IT solutions to meet industry-specific needs.",
+        question: "Is Encuentro Church open to everyone?",
+        answer: "Absolutely! We welcome people from all backgrounds to join us in worship, fellowship, and service as we grow together in faith.",
     }
 ]
+
 
 export default function Example() {
     return (
@@ -30,11 +31,11 @@ export default function Example() {
             <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
             <p className="mt-6 text-base leading-7 text-gray-600">
-                Have a different question and can’t find the answer you’re looking for? Reach out to our support team by{' '}
+                Can’t find the answer you’re looking for? Reach out to our team by{' '}
                 <Link href="/contact" className="font-semibold text-indigo-600 hover:text-indigo-500">
                 sending us an email
                 </Link>{' '}
-                and we’ll get back to you as soon as we can.
+                and we’ll be happy to assist you.
             </p>
             </div>
             <div className="mt-20">
