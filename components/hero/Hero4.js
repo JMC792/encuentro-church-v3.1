@@ -148,10 +148,10 @@ export default function Example() {
                     Get to know Us.
                   </h1>
                   <p className="mt-6 text-lg leading-8 text-gray-400 sm:max-w-md lg:max-w-none">
-                  At Queen City IT Solutions, we are committed to delivering high-quality IT services tailored to your business needs. 
-                  Our team prides itself on offering reliable, efficient, and customized solutions. 
-                  With a focus on precision and care, we handle every project with the expertise required to ensure your success. 
-                  Trust us to be your dedicated IT partner, guiding you through every challenge with professionalism and attention to detail.
+                  At Encuentro Church, we are committed to fostering a welcoming and faith-filled community where everyone can grow spiritually.  
+                  Our church family takes pride in offering meaningful worship, biblical teaching, and compassionate support.  
+                  With a focus on faith and fellowship, we walk alongside you in your spiritual journey, providing guidance, encouragement, and a place to belong.  
+                  Trust us to be your spiritual home, supporting you through every season of life with love and devotion.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Link

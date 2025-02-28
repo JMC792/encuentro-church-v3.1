@@ -43,11 +43,11 @@ export default function Form3(props) {
               </div>
 
               {/* Title */}
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in Touch</h2>
               
               {/* Paragraph */}
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                {props.paragraph}
+              Encuentro Church is here for you! Whether you need prayer, guidance, or want to learn more about our ministries, we’re happy to connect with you. Fill out the form or give us a call – we’re ready to support you on your faith journey.
               </p>
 
               {/* Info List */}
@@ -60,9 +60,9 @@ export default function Form3(props) {
                     <BuildingOffice2Icon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                   </dt>
                   <dd>
-                    {layout.address}
+                    7568 Ruben Linker Rd NW
                     <br />
-                    {layout.city}
+                    Concord, NC 28027
                   </dd>
                 </div>
 
@@ -74,7 +74,7 @@ export default function Form3(props) {
                   </dt>
                   <dd>
                     <a className="hover:text-gray-900" href={"tel:+1 " + props.phone}>
-                      +1 {props.phone}
+                      +1 (704)-231-8681
                     </a>
                   </dd>
                 </div>
@@ -87,7 +87,7 @@ export default function Form3(props) {
                   </dt>
                   <dd>
                     <a className="hover:text-gray-900" href={"mailto:" + props.email}>
-                      {props.email}
+                      jesus@encuentro.church
                     </a>
                   </dd>
                 </div>
@@ -231,7 +231,7 @@ export default function Form3(props) {
                 {/* Message */}
                 <div className="sm:col-span-2">
                   <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
-                    Description of Issue & Services Needed
+                    Description
                   </label>
                   <div className="mt-2.5">
                     <textarea

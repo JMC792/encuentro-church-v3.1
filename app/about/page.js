@@ -27,12 +27,7 @@ export default function Page() {
         heroSubtitle={about.hero.subtitle}  
         background={"bg-back-about"}
       />
-      <ProductScreenshot
-        heading={language.index.about.heading} 
-        title={language.index.about.title} 
-        paragraph={language.index.about.paragraph.one}
-        image={image4}
-      />
+      <ProductScreenshot/>
       <CTA/>
     </Fragment>
   );

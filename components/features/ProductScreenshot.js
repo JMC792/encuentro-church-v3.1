@@ -3,19 +3,19 @@ import Image from 'next/image'
 
 const features = [
   {
-    name: 'Swift and Efficient Service',
+    name: 'Faithful and Compassionate Service',
     description:
-      'Prompt response times and efficient handling of your IT needs. Queen City IT Solutions prides itself on its speed and effectiveness, ensuring your IT challenges are addressed swiftly while maintaining the highest standards of quality.',
+      'With a heart for service, Encuentro Church is committed to responding to the needs of our congregation and community with care and compassion. We strive to create an environment where everyone feels seen, heard, and uplifted.',
     icon: CheckCircleIcon,
   },
   {
-    name: 'Expertise and Accuracy',
-    description: 'Our expertise in IT services and consultation ensures accurate and precise handling of your projects. You can trust that every detail will be meticulously addressed, resulting in optimal outcomes for your IT infrastructure and security needs.',
+    name: 'Biblical Teaching and Spiritual Growth',
+    description: 'Grounded in biblical truth, our teachings provide wisdom, encouragement, and direction for daily life. We are passionate about helping individuals grow in their faith and deepen their relationship with God through worship, study, and prayer.',
     icon: CheckCircleIcon,
   },
   {
-    name: 'Dedicated to Client Satisfaction',
-    description: 'Client satisfaction drives everything we do. From the initial consultation to the resolution of your IT issues, your satisfaction is our top priority. Trust Queen City IT Solutions for an excellent service experience.',
+    name: 'Committed to Community and Fellowship',
+    description: 'At Encuentro Church, we believe in the power of fellowship and unity. Whether through worship services, outreach programs, or small groups, we are dedicated to creating meaningful connections and building a strong, faith-filled community.',
     icon: CheckCircleIcon,
   },
 ]
@@ -36,7 +36,7 @@ export default function ProductScreenshot(props) {
                 Our Story and Mission
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Queen City IT Solutions was founded in Charlotte with a mission to provide top-tier IT services and consultation. We are dedicated to enhancing businesses' IT infrastructure and security nationwide.
+              Encuentro Church was founded with a mission to create a welcoming community rooted in faith, love, and service. We are dedicated to guiding individuals and families in their spiritual journey while fostering a deep connection with God and one another.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -55,7 +55,7 @@ export default function ProductScreenshot(props) {
           {/* Image */}
           <img
             alt=""
-            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1507692049790-de58290a4334?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
           />
         </div>
